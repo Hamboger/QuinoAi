@@ -1,0 +1,2 @@
+# QuinoAi
+ELAI proj
