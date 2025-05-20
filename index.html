@@ -54,7 +54,13 @@ body, html {
 </style>
 </head>
 <body>
-
+<script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "bf59ee94-9a37-4617-8700-fa9a8bc0c488",
+        apiHost: "https://cloud.flowiseai.com",
+    })
+</script>
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
